@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    text-align: center;
+    background: burlywood;
+}
+.container h5 p {
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    /*  */
+    color: rgba(0,0,0,0.7);
+    text-decoration: underline;
+} 
+.container{
+    margin-left: 300px;
+    margin-bottom: -50px;
+    
+}
+body .container{
+    margin-top: 50px;
+    text-align: center;
+    height: 60vh;
+    width: 50vw;
+    background: radial-gradient(at center, rgba(214, 202, 202, 0.9), rgba(224, 217, 217, 0.9) );
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #32383d,
+                inset 0 0px 3px black;
+    border-radius: 10px;
+    background: url(./images/delivery-van-with-deliveryman-vector-20962416\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    
+}
+.container input{
+    width: 500px;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background: rgba(0,0,0,0.749);
+    box-shadow: 0 2px 5px #32383d,
+                inset 0 0px 3px black;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 20;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+.container button{
+    padding: 15px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    background: rgba(0,0,0,0.749);
+    border: none;
+    outline: none;
+    color: silver;
+    box-shadow: 0 2px 5px #32383d,
+                inset 0 0px 3px black;
+    border-radius: 2px;
+}
+.order-gif{
+    
+    margin-left: 50px;
+}
+.image-gif{
+    height: 200px;
+    width: 200px;
+}
